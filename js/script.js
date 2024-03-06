@@ -36,13 +36,13 @@ console.log(finalPrice2);
 
 // CONDITION //
 if (paxAge < 18){
-    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è di ${finalPrice1} €`;
+    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è ${finalPrice1} €`;
 }
 else if (paxAge > 65){
-    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è di ${finalPrice2} €`;
+    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è ${finalPrice2} €`;
 }
 else {
-    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è di ${noDiscountedTicket} €`;
+    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è ${noDiscountedTicket} €`;
 }
 
 
