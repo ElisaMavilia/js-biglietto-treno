@@ -16,7 +16,7 @@ let ticket = (0.21 * kilometer);
 let noDiscountedTicket = ticket.toFixed(2).replace(/\./, ",");
 console.log(noDiscountedTicket);
 
-// BIGLIETTO 1//
+// TICKET 1//
 let discount1 = (ticket * 20) / 100;
 console.log(discount1);
 let discountedTicket1 = (ticket - discount1);
@@ -25,7 +25,7 @@ in decimali */
 let finalPrice1 = discountedTicket1.toFixed(2).replace(/\./, ",");
 console.log(finalPrice1);
 
-// BIGLIETTO 2//
+// TICKET 2//
 let discount2 = (ticket * 40) / 100;
 console.log(discount2);
 let discountedTicket2 = (ticket - discount2);
