@@ -10,7 +10,6 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 //GENERAL//
 let kilometer = parseInt(prompt("Inserisci il numero di chilometri da percorrere"));
 let paxAge = parseInt(prompt("Inserisci la tua età"));
-
 console.log(kilometer,paxAge);
 
 let ticket = (0.21 * kilometer);
@@ -19,21 +18,16 @@ console.log(noDiscountedTicket);
 
 // BIGLIETTO 1//
 let discount1 = (ticket * 20) / 100;
-
 console.log(discount1);
-
 let discountedTicket1 = (ticket - discount1);
 /* Prezzo finale biglietto 1
 in decimali */
 let finalPrice1 = discountedTicket1.toFixed(2);
 console.log(finalPrice1);
 
-
 // BIGLIETTO 2//
 let discount2 = (ticket * 40) / 100;
-
 console.log(discount2);
-
 let discountedTicket2 = (ticket - discount2);
 /* Prezzo finale biglietto 2
 in decimali */
