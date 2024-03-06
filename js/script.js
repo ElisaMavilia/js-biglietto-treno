@@ -13,7 +13,7 @@ let paxAge = parseInt(prompt("Inserisci la tua età"));
 console.log(kilometer,paxAge);
 
 let ticket = (0.21 * kilometer);
-let noDiscountedTicket = ticket.toFixed(2);
+let noDiscountedTicket = ticket.toFixed(2).replace(/\./, ",");
 console.log(noDiscountedTicket);
 
 // BIGLIETTO 1//
@@ -22,7 +22,7 @@ console.log(discount1);
 let discountedTicket1 = (ticket - discount1);
 /* Prezzo finale biglietto 1
 in decimali */
-let finalPrice1 = discountedTicket1.toFixed(2);
+let finalPrice1 = discountedTicket1.toFixed(2).replace(/\./, ",");
 console.log(finalPrice1);
 
 // BIGLIETTO 2//
@@ -31,7 +31,7 @@ console.log(discount2);
 let discountedTicket2 = (ticket - discount2);
 /* Prezzo finale biglietto 2
 in decimali */
-let finalPrice2 = discountedTicket2.toFixed(2);
+let finalPrice2 = discountedTicket2.toFixed(2).replace(/\./, ",");
 console.log(finalPrice2);
 
 // CONDITION //
