@@ -38,8 +38,15 @@ let discountedTicket2 = (ticket - discount2);
 /* Prezzo finale biglietto 2
 in decimali */
 let finalPrice2 = discountedTicket2.toFixed(2);
-console.log(finalPrice1);
+console.log(finalPrice2);
 
+// CONDITION //
 
+if (paxAge < 18){
+    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è di ${finalPrice1} €`;
+}
+else if (paxAge > 65){
+    document.getElementById(`title`).innerHTML = `Il prezzo del biglietto è di ${finalPrice2} €`;
+}
 
 
